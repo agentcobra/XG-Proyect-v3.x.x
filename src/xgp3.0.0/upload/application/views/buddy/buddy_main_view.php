@@ -71,6 +71,15 @@
                                 <tr>
                                      <td class="c">{bu_available}: 0 {bu_points_short}</td>
                                 </tr>
+                                <tr height="50px">
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <br>
+                                        <input type="button" name="to_buddy_items" value="{bu_to_buddy_items_button}">
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </td>
@@ -96,6 +105,27 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" class="c">{bu_available}: 0 {bu_premium_points_short}</td>
+                                </tr>
+                                <tr height="50px">
+                                    <td colspan="2">
+                                        <table width="100%">
+                                            <tr>
+                                                <td width="75%">
+                                                    <span><strong><a href="#" title="{bu_exchange_rate_help}">?</a></strong></span> {bu_exchange_rate_title}:<br>
+                                                    <span style="color:#9c0">{bu_exchange_rate_ratio}</span>
+                                                </td>
+                                                <td width="25%" style="color:#ffd700">
+                                                    = 0 {bu_exchange_rate_dm_short}
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="right">
+                                        <br>
+                                        <input type="button" name="exchange_now" value="{bu_exchange_now_button}">
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>

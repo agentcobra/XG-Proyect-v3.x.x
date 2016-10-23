@@ -939,10 +939,16 @@ $lang['bu_points_detail_2']         = 'The active recruit receives one buddy poi
 $lang['bu_points_legend']           = 'Swap buddy points in the shop for buddy items.';
 $lang['bu_available']               = 'Available';
 $lang['bu_points_short']            = 'BP';
+$lang['bu_to_buddy_items_button']   = 'To buddy items';
 $lang['bu_premium_points_title']    = 'Premium Buddy Points';
 $lang['bu_premium_points_detail']   = 'If one of your recruited buddies purchases Dark Matter, you will receive 5% of this in the form of Premium Buddy Points (BPP).';
 $lang['bu_premium_points_legend']   = 'Swap Premium Buddy Points for Dark Matter';
 $lang['bu_premium_points_short']    = 'PBP';
+$lang['bu_exchange_now_button']     = 'Exchange Now';
+$lang['bu_exchange_rate_title']     = 'Exchange rate';
+$lang['bu_exchange_rate_ratio']     = '1 PBP : 2 DM';
+$lang['bu_exchange_rate_help']      = 'With every one of your purchases of Dark Matter, the exchange rate will increase, up to a limit of 2 DM per Premium Buddy Point.';
+$lang['bu_exchange_rate_dm_short']  = 'DM';
 $lang['bu_ignored_players']         = 'Ignored Players';
 $lang['bu_ignoring_no_one']         = 'You aren\'t currently ignoring anybody';
 

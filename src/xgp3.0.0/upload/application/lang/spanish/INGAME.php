@@ -945,10 +945,16 @@ $lang['bu_points_detail_2']         = 'El recluta activo recibe un Punto de amig
 $lang['bu_points_legend']           = 'Canjea Puntos de amigo por objetos de amigo en la tienda.';
 $lang['bu_available']               = 'Disponible';
 $lang['bu_points_short']            = 'PA';
+$lang['bu_to_buddy_items_button']   = 'Ir a los Objetos de amigo';
 $lang['bu_premium_points_title']    = 'Puntos premium de amigo';
 $lang['bu_premium_points_detail']   = 'Cuando tus amigos reclutados compran Materia oscura, recibes un 5% de su compra en Puntos premium de amigo (PPA).';
 $lang['bu_premium_points_legend']   = 'Cambia Puntos premium de amigo por Materia oscura';
 $lang['bu_premium_points_short']    = 'PPA';
+$lang['bu_exchange_now_button']     = 'Canjear ahora';
+$lang['bu_exchange_rate_title']     = 'Tasa de cambio';
+$lang['bu_exchange_rate_ratio']     = '1 PPA : 2 MO';
+$lang['bu_exchange_rate_help']      = 'Recibes la cantidad máxima de 2 de materia oscura por cada Punto premium de amigo.';
+$lang['bu_exchange_rate_dm_short']  = 'MO';
 $lang['bu_ignored_players']         = 'Jugadores a los que estás ignorando';
 $lang['bu_ignoring_no_one']         = 'En este momento no ignoras a nadie';
 
