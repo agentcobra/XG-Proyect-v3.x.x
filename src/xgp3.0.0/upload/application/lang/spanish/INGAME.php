@@ -927,7 +927,7 @@ $lang['al_confirm_remove_member']			= '¿Estás seguro que deseas expulsar a %s?
 $lang['al_alliance_founder_rank']			= 'Líder';
 
 //----------------------------------------------------------------------------//
-//BUDDY
+// BUDDIES
 $lang['bu_title']                   = 'Lista de amigos';
 $lang['bu_request']                 = 'Solicitud';
 $lang['bu_your_requests']           = 'Tus solicitudes';

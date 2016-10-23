@@ -1,6 +1,6 @@
 <?php
 /**
- * Buddy Model
+ * Buddies Model
  *
  * PHP Version 5.5+
  *
@@ -15,7 +15,7 @@
 namespace application\models\game;
 
 /**
- * Buddy Class
+ * Buddies Class
  *
  * @category Classes
  * @package  Application
@@ -24,7 +24,7 @@ namespace application\models\game;
  * @link     http://www.xgproyect.org
  * @version  3.1.0
  */
-class Buddy
+class Buddies
 {
     private $db = null;
     

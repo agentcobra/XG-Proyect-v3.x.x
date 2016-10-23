@@ -1,6 +1,6 @@
 <?php
 /**
- * Buddy Controller
+ * Buddies Controller
  *
  * PHP Version 5.5+
  *
@@ -18,7 +18,7 @@ use application\core\XGPCore;
 use application\libraries\FunctionsLib;
 
 /**
- * Buddy Class
+ * Buddies Class
  *
  * @category Classes
  * @package  Application
@@ -27,7 +27,7 @@ use application\libraries\FunctionsLib;
  * @link     http://www.xgproyect.org
  * @version  3.1.0
  */
-class Buddy extends XGPCore
+class Buddies extends XGPCore
 {
     const MODULE_ID = 20;
 
@@ -48,7 +48,7 @@ class Buddy extends XGPCore
         FunctionsLib::moduleMessage(FunctionsLib::isModuleAccesible(self::MODULE_ID));
 
         // load Model
-        parent::loadModel('game/buddy');
+        parent::loadModel('game/buddies');
         
         $this->langs        = parent::$lang;
         $this->current_user = parent::$users->getUserData();
@@ -76,12 +76,12 @@ class Buddy extends XGPCore
         if ($a === 1 or $e === 1) {
             
             parent::$page->display(
-                parent::$page->get('buddy/buddy_requests_view')->parse(array_merge($parse, $this->langs))
+                parent::$page->get('buddies/buddies_requests_view')->parse(array_merge($parse, $this->langs))
             );  
         } else {
 
             parent::$page->display(
-                parent::$page->get('buddy/buddy_main_view')->parse(array_merge($parse, $this->langs))
+                parent::$page->get('buddies/buddies_main_view')->parse(array_merge($parse, $this->langs))
             );   
         }
     }

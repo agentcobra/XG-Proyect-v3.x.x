@@ -921,7 +921,7 @@ $lang['al_confirm_remove_member']			= 'Are you sure you want to expel %s?';
 $lang['al_alliance_founder_rank']			= 'Leader';
 
 //----------------------------------------------------------------------------//
-//BUDDY
+// BUDDIES
 $lang['bu_title']                   = 'Buddylist';
 $lang['bu_request']                 = 'Request';
 $lang['bu_your_requests']           = 'Your requests';

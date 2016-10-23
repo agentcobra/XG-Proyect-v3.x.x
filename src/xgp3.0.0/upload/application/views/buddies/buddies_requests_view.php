@@ -12,7 +12,7 @@
                 </tr>
 
                 <tr>
-                    <td class="c" colspan="6"><a href="?page=buddy">back</a></td>
+                    <td class="c" colspan="6"><a href="?page=buddies">back</a></td>
                 </tr>
             </tbody>
         </table>

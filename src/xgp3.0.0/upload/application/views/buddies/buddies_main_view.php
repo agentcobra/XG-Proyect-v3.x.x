@@ -7,10 +7,10 @@
                     <td class="c" colspan="6">{bu_title}</td>
                 </tr>
                 <tr>
-                    <th colspan="6"><a href="?page=buddy&amp;a=1">{bu_request}</a></th>
+                    <th colspan="6"><a href="?page=buddies&amp;a=1">{bu_request}</a></th>
                 </tr>
                 <tr>
-                    <th colspan="6"><a href="?page=buddy&amp;a=1&amp;e=1">{bu_your_requests}</a></th>
+                    <th colspan="6"><a href="?page=buddies&amp;a=1&amp;e=1">{bu_your_requests}</a></th>
                 </tr>
                 <tr>
                     <td class="c"></td>
