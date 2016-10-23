@@ -922,6 +922,33 @@ $lang['al_alliance_founder_rank']			= 'Leader';
 
 //----------------------------------------------------------------------------//
 //BUDDY
+$lang['bu_title']                   = 'Buddylist';
+$lang['bu_request']                 = 'Request';
+$lang['bu_your_requests']           = 'Your requests';
+$lang['bu_name']                    = 'Name';
+$lang['bu_alliance']                = 'Alliance';
+$lang['bu_coords']                  = 'Coords';
+$lang['bu_status']                  = 'Status';
+$lang['bu_no_entries']              = 'no entries';
+$lang['bu_recruited']               = 'Recruited Buddies';
+$lang['bu_invite_your_friends_msg'] = 'Invite your friends as buddies into your galaxy and receive buddy points and buddy premium points. Or search friends, who are already in your galaxy.';
+$lang['bu_recruit_now']             = 'Recruit now';
+$lang['bu_points_title']            = 'Buddy Points';
+$lang['bu_points_detail_1']         = 'For each active recruited buddy you will receive 2 buddy points per day (max. 30)';
+$lang['bu_points_detail_2']         = 'The active recruit receives one buddy point per day';
+$lang['bu_points_legend']           = 'Swap buddy points in the shop for buddy items.';
+$lang['bu_available']               = 'Available';
+$lang['bu_points_short']            = 'BP';
+$lang['bu_premium_points_title']    = 'Premium Buddy Points';
+$lang['bu_premium_points_detail']   = 'If one of your recruited buddies purchases Dark Matter, you will receive 5% of this in the form of Premium Buddy Points (BPP).';
+$lang['bu_premium_points_legend']   = 'Swap Premium Buddy Points for Dark Matter';
+$lang['bu_premium_points_short']    = 'PBP';
+$lang['bu_ignored_players']         = 'Ignored Players';
+$lang['bu_ignoring_no_one']         = 'You aren\'t currently ignoring anybody';
+
+
+
+
 $lang['bu_request_exists']					= 'There is already an application to that player!';
 $lang['bu_cannot_request_yourself']			= 'You can not ask you as a friend to yourself';
 $lang['bu_request_message']					= 'Request message';

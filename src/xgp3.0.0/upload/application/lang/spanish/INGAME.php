@@ -928,6 +928,34 @@ $lang['al_alliance_founder_rank']			= 'Líder';
 
 //----------------------------------------------------------------------------//
 //BUDDY
+$lang['bu_title']                   = 'Lista de amigos';
+$lang['bu_request']                 = 'Solicitud';
+$lang['bu_your_requests']           = 'Tus solicitudes';
+$lang['bu_name']                    = 'Nombre';
+$lang['bu_alliance']                = 'Alianza';
+$lang['bu_coords']                  = 'Coordenadas';
+$lang['bu_status']                  = 'Estado';
+$lang['bu_no_entries']              = 'no hay registros';
+$lang['bu_recruited']               = 'Recluta amigos';
+$lang['bu_invite_your_friends_msg'] = 'Invita a tus amigos a tu galaxia y consigue Puntos de amigo y Puntos premium de amigo. También puedes buscar amigos que ya están jugando en tu misma galaxia.';
+$lang['bu_recruit_now']             = 'Reclutar ahora';
+$lang['bu_points_title']            = 'Puntos de amigo';
+$lang['bu_points_detail_1']         = 'Por cada amigo reclutado activo recibes 2 Puntos de amigo al día (como máximo 30)';
+$lang['bu_points_detail_2']         = 'El recluta activo recibe un Punto de amigo al día';
+$lang['bu_points_legend']           = 'Canjea Puntos de amigo por objetos de amigo en la tienda.';
+$lang['bu_available']               = 'Disponible';
+$lang['bu_points_short']            = 'PA';
+$lang['bu_premium_points_title']    = 'Puntos premium de amigo';
+$lang['bu_premium_points_detail']   = 'Cuando tus amigos reclutados compran Materia oscura, recibes un 5% de su compra en Puntos premium de amigo (PPA).';
+$lang['bu_premium_points_legend']   = 'Cambia Puntos premium de amigo por Materia oscura';
+$lang['bu_premium_points_short']    = 'PPA';
+$lang['bu_ignored_players']         = 'Jugadores a los que estás ignorando';
+$lang['bu_ignoring_no_one']         = 'En este momento no ignoras a nadie';
+
+
+
+
+
 $lang['bu_request_exists']					= '¡Ya existe una solicitud a ese jugador!';
 $lang['bu_cannot_request_yourself']			= '¡No puedes solicitarte como amigo a ti mismo!';
 $lang['bu_request_message']					= 'Mensaje de solicitud';
