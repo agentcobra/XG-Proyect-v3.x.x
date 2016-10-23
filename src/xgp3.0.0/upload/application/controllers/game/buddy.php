@@ -64,19 +64,24 @@ class Buddy extends XGPCore
     private function buildPage()
     {
         // filter stuff
-        $a  = (int)filter_input(INPUT_GET, 'a');
-        $e  = (int)filter_input(INPUT_GET, 'e');
+        $a      = (int)filter_input(INPUT_GET, 'a');
+        $e      = (int)filter_input(INPUT_GET, 'e');
+        
+        // init
+        $parse          = [];
+        $parse['dpath'] = DPATH;
+        
         
         // choose the right page
         if ($a === 1 or $e === 1) {
             
             parent::$page->display(
-                parent::$page->get('buddy/buddy_requests_view')->parse()
+                parent::$page->get('buddy/buddy_requests_view')->parse(array_merge($parse, $this->langs))
             );  
         } else {
 
             parent::$page->display(
-                parent::$page->get('buddy/buddy_main_view')->parse()
+                parent::$page->get('buddy/buddy_main_view')->parse(array_merge($parse, $this->langs))
             );   
         }
     }
